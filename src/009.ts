@@ -11,7 +11,7 @@ export function main9() {
   const result = isPalindrome(x);
   const result2 = isPalindrome(y);
   const result3 = isPalindrome(z);
-  console.log(result, result2, result3);
+  // console.log(result, result2, result3);
 }
 
 main9();

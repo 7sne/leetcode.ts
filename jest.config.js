@@ -1,9 +1,6 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-const config = {
-    verbose: true,
-    transform: {
-        "^.+\\.ts?$": "ts-jest",
-    },
+/** @type {import('ts-jest/dist/types').InitialOptionsTsJest} */
+module.exports = {
+    roots: ['./src'],
+    preset: 'ts-jest',
+    testEnvironment: 'node',
 };
-exports.default = config;
